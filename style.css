@@ -1,0 +1,152 @@
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: brown;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    padding: 15px 35px;
+    color: black;
+}
+.navbar a:hover{
+    color: black;
+}
+.logo {
+    font-weight: 1500;
+    font-size: 35px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 26px;
+    
+}
+.welcome-text{
+    max-width: 700px;
+    margin: 0 auto;
+
+}
+.welcome-text h3{
+    font-size: 40px;
+    color: blueviolet;
+    font-weight: 900px;
+    margin-bottom: 15px;
+}
+.welcome-text p{
+    font-size: 20px;
+    line-height: 1.8;
+    max-width: 700px;
+    font-size: 22px;
+    color: saddlebrown;
+
+}
+.welcome-image {
+    flex: 1px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    min-height: 300px;
+    display: block
+    ;
+
+}
+.welcome-image img {
+    display: block;
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 18px;
+
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+.Home{
+    padding: 40px;
+    text-align: center;
+}
+.welcome-text h3{
+    font-size: 35px;
+    color: darkolivegreen;
+}
+.welcome-text p{
+    font-size: 20px;
+    color: darkgoldenrod;
+}
+.menu-btn{
+    display: inline-block;
+    background-color: aqua;
+    color: black;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 600;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+.menu-btn:hover{
+    color: rgb(42, 5, 77);
+    background-color: rgb(170, 121, 216);
+}
+.welcome-image{
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.welcome-image img{
+width: 400px;
+height: 250px;
+object-fit: cover;
+}
+.welcome-image h3{
+    width: 100%;
+    text-align: center;
+    color: coral;
+    font-size: 35px;
+}
+.welcome p{
+    font-size: 20px;
+    font-style: italic;
+    color: saddlebrown;
+}
+footer{
+    background-color:brown ;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+
+}
+.find-us{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+footer h2{
+    font-size: 40px;
+}
+footer h3{
+    font-size:25px ;
+    color: yellow;
+}
+.find-us div:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.find-us h3:hover{
+    cursor: pointer;
+    color: white;
+}
